@@ -8,3 +8,5 @@ services:
       dockerfile: dockerfile
     volumes:
       - .:/workspace
+    ports:
+      - 7777:8888
