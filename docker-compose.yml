@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  env:
+    tty: true
+    container_name: env_for_python
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - .:/workspace
